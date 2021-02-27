@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  color:wheat;
+  background-color: #262626;
+}
+.navbar {
+  padding: 10px;
+  align-items: center;
+  display: flex;
+  margin: 0 0 20px  0;
+  max-width: 100%;
+  justify-content: space-between;
+  min-width: 270px;
+}
+.navbar h1{
+  color: red;
+}
+.navbar links{
+  margin-left: auto;
+}
+.navbar a{
+  text-decoration: none;
+  margin-left: 10px;
+  padding: 7px;
+}
+.navbar a:hover{
+  color: #f1356d;
+}
+.navbar input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 20px;
+  border: none;
+  background-color:whitesmoke;
+  border-radius: 20px;
+  color:black;
+  width: 500px;
+  height: 30px;
+}
+.content {
+  max-width: 100%;
+  padding: 20px;
+}
+.blog-preview {
+  padding: 10px 16px;
+  margin: 10px 0;
+  border-bottom: 1px solid #fafafa;
+}
+.blog-preview:hover {
+  box-shadow: 5px 5px 5px 5px rgba(255, 254, 254, 0.3);
+}
+.blog-preview h2 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 8px;
+}
+.blog-preview a{
+  text-decoration: none;
+}
+.blog-preview p {
+  color: white;
+}
+/* blog details page*/
+.blog-details h2, p {
+  font-size: 20px;
+  color: #f1356d;
+  /*margin-bottom: 10px; */
+}
+.blog-details p {
+  font-size: 18px;
+  color: white;
+  /*margin-bottom: 10px; */
+}
+.blog-details div {
+  margin: 0 0 20px 0;
+}
+.blog-details button {
+  background: crimson;
+  color: wheat;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: medium;
+}
+/*for forms */
+.create {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+.create label {
+  text-align: left;
+  display: block;
+}
+.create h1 {
+  font-size: 30px;
+  color: #f1356d;
+  margin-bottom: 30px;
+}
+.create input, .create textarea, .create select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+.create button {
+  background: #f1356d;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+/* Not found */
+.not-found h1 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 10px;
+}
+.not-found a {
+  text-decoration: none;
+  display: block;
+  color: wheat;
+
+}
+/* for dropdown menu*/
+.dropbtn {
+  background-color: #262626;
+  color: wheat;
+  padding: 6px;
+  font-size: 16px;
+  border: none;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #262626;
+  min-width: 160px;
+  box-shadow: 4px 4px 8px 1px rgba(245, 245, 245, 0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  color:wheat;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  min-width: 160px;
+  font-size: 16px;
+  border-radius: none;
+}
+.dropdown-content button:hover {color:#f1356d;}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropbtn {color:#f1356d;}
